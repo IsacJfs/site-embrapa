@@ -53,10 +53,6 @@ aside .nav .nav-link {
     color: #000;
 }
 
-.tab-content p {
-    height: 48px;
-}
-
 #elefante h5 {
     height: 20px;
 }
@@ -77,6 +73,7 @@ h2 {
 header > div {
     justify-content: end;
 }
+
 
 @media (max-width: 767px) {
     .nav {
@@ -101,6 +98,10 @@ header > div {
 
     .nav-link {
         color: #53bd65;
+    }
+
+    .carousel-indicators {
+        display: none;
     }
 
 }
