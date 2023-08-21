@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gramíneas Forrageiras</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./icones/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-xl sticky-top p-4 bg-principal" id="cabecalho">
+        <div class="container ">
+            <img id="embrapa-logo" src="./imagens/embrapa-logo-ajustado.svg" alt="">
+            <h1 class="navbar-brand m-0 text-white">
+                Gramíneas Forrageiras</h1>
+            <button class="navbar-toggler bg-claro" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav d-block d-xl-flex">
+                    <li class="nav-item">
+                        <a href="#embrapa" class="nav-link active link-offset-1-hover">
+                            <i class="bi bi-house-door me-1"></i>
+                            A Embrapa
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pesquisas" class="nav-link">
+                            <i class="bi bi-calendar me-1"></i>
+                            Centros de pesquisas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cultivares" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cultivares
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div>
+                <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                    <ul class="carousel-inner d-flex text-center">
+                        <li class="carousel-item active" data-bs-interval="5000">
+                            <img class="w-75" src="./imagens/abelha.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block row">
+                                <h5>Webinar internacional discute como compartilhar dados de pesquisas</h5>
+                                <p>Evento ocorrerá no dia 22 de agosto, às 10h. Serão apresentados os primeiros resultados de projeto sobre polinização na agricultura liderado por Debora Drucker, da Embrapa Agricultura Digital.</p>
+                            </div>
+                            <div class="row d-md-none">
+                                <h5>Webinar internacional discute como compartilhar dados de pesquisas</h5>
+                                <p>Evento ocorrerá no dia 22 de agosto, às 10h. Serão apresentados os primeiros resultados de projeto sobre polinização na agricultura liderado por Debora Drucker, da Embrapa Agricultura Digital.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-item" data-bs-interval="5000">
+                            <img class="w-75" src="./imagens/embrapa_50_anos.jpg" alt="">
+                        </li>
+                        <li class="carousel-item" data-bs-interval="5000">
+                            <img class="w-75" src="./imagens/integra.webp" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>BRS Integra: nova cultivar de Urochloa ruziziensis para a ILPF.</h5>
+                                <p>A cultivar BRS Integra é a primeira cultivar de Urochloa ruziziensis oriunda do programa de melhoramento genético conduzido pela Embrapa para as condições brasileiras.</p>
+                            </div>
+                            <div class="row d-md-none">
+                                <h5>BRS Integra: nova cultivar de Urochloa ruziziensis para a ILPF.</h5>
+                                <p>A cultivar BRS Integra é a primeira cultivar de Urochloa ruziziensis oriunda do programa de melhoramento genético conduzido pela Embrapa para as condições brasileiras.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-3 pt-3 bg-claro" id="embrapa">
+            <article class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100 rounded" src="./imagens/embrapa-presquisa.jpg" alt="">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre a Embrapa</h2>
+                        <h5>A Embrapa é uma empresa voltada para a inovação, que foca na geração de conhecimentos e tecnologias para a agropecuária brasileira.</h5>
+                        <p>A Empresa Brasileira de Pesquisa Agropecuária (Embrapa) é uma empresa pública, vinculada ao Ministério da Agricultura e Pecuária (Mapa), que foi criada em 1973 para desenvolver a base tecnológica de um modelo de agricultura e pecuária genuinamente tropical. A iniciativa tem o desafio constante de garantir ao Brasil segurança alimentar e posição de destaque no mercado internacional de alimentos, fibras e energia.</p>
+                        <p>Na execução dessa tarefa, em permanente diálogo com produtores, organizações científicas e lideranças do Estado e da sociedade civil, a Embrapa se pauta por:</p>
+                        <ul>
+                            <li>excelência científica em pesquisa agropecuária, </li>
+                            <li>qualidade e eficiência produtiva em cultivos e criações, </li>
+                            <li>sustentabilidade ambiental, </li>
+                            <li>aspectos sociais,</li>
+                            <li>parcerias com o setor produtivo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="pt-3 pb-5" id="pesquisas">
+            <article class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-3">Centros de pesquisas</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./imagens/embrapa-cerrado.jpg" alt="">
+                        <h3 class="section-title text-colored">
+                            Embrapa cerrados</h3>
+                        <p>A Embrapa Cerrados é uma das 42 Unidades da Empresa Brasileira de Pesquisa Agropecuária (Embrapa), vinculada ao Ministério da Agricultura, Pecuária e Abastecimento (Mapa). Foi criada em 1975 com o desafio de viabilizar a produção agrícola no Cerrado brasileiro. A Unidade é um centro de pesquisa ecorregional cujo foco é o desenvolvimento sustentável da agricultura no Bioma Cerrado.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./imagens/embrapa-recursos-geneticos.jpg" alt="">
+                        <h3 class="section-title text-colored">
+                            Embrapa Recursos Genéticos e Biotecnologia</h3>
+                        <p>A Embrapa Recursos Genéticos e Biotecnologia tem atuado fortemente no intercâmbio e quarentena de germoplasma vegetal, garantindo a continuidade dos programas de melhoramento genético da Embrapa, além de prevenir a introdução e dispersão de pragas agrícolas. O material introduzido e coletado no País é classificado e conservado a -20 C, constituindo a Coleção de longo prazo, conhecida como COLBASE, que atualmente possui mais de 140.000 acessos.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./imagens/Embrapa Agropecuária Oeste.jpg" alt="">
+                        <h3 class="section-title text-colored">
+                            Embrapa Agropecuária Oeste </h3>
+                        <p>A Embrapa Agropecuária Oeste é uma Unidade de Pesquisa Ecorregional, ou seja, têm sua atuação voltada para o aprimoramento de sistemas de produção das cadeias de produtos agropecuários mais relevantes da sua região de abrangência. Seus trabalhos são desenvolvidos de forma integrada, abrangendo as diversas disciplinas das ciências agrárias, tendo como objetivo maior, a sustentabilidade dos sistemas de produção predominantes.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="cultivares">
+            <article class="container bg-claro pt-3">
+                <div class="row ">
+                    <h2 class="text-center">
+                        Nossas Cultivares
+                    </h2>
+                </div>
+                <div class="row" >
+                    <aside class="col-md-3 pe-md-0">
+                        <nav class="nav flex-column text-center text-md-start">
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0 active text-center text-md-start" type="button" data-bs-toggle="tab" data-bs-target="#brachiaria-alta">Brachiarias porte alto</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#brachiaria-media">Brachiarias porte médio</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#brachiaria-baixa">Brachiarias porte baixo</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#paicum-alto">Panicum porte alto</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#panicum-medio">Panicum porte médio</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#panicum-baixo">Panicum porte baixo</button>
+                            <button class="fw-bold text-start nav-link text-center text-md-start mt-2 mt-md-0" type="button" data-bs-toggle="tab" data-bs-target="#elefante">Pennisetum (elefante)</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9 pt-3 bg-claro" id="itens-cardapio">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="brachiaria-alta">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/xaraes.webp" alt="brachiaria-xaraes">
+                                        <h5 class="fw-bold mt-2">Xaraés, MG-5 Vitória ou Toledo</h5>
+                                        <p>Brachiaria brizantha cv. Xaraés</p>
+                                        <a href="./brachiarias/xaraes.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brachiaria-media">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/marandu.webp" alt="Marandu, Braquiarão ou Brizantão">
+                                        <h5 class="fw-bold mt-2">Marandu, Braquiarão ou Brizantão</h5>
+                                        <p>Brachiaria brizantha cv. Marandu</p>
+                                        <a href="./brachiarias/marandu.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/piata.webp" alt="BRS Piatã">
+                                        <h5 class="fw-bold mt-2">BRS Piatã</h5>
+                                        <p>Brachiaria brizantha cv. BRS Piatã</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/paiaguas.webp" alt="BRS Paiaguás">
+                                        <h5 class="fw-bold mt-2">BRS Paiaguás</h5>
+                                        <p>Brachiaria brizantha cv. BRS Paiaguás</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/ipipora.webp" alt="BRS Ipyporã">
+                                        <h5 class="fw-bold mt-2">BRS Ipyporã</h5>
+                                        <p>Brachiaria spp. cv. BRS Ipyporã</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/tupi.jpg" alt="BRS Tupi">
+                                        <h5 class="fw-bold mt-2">BRS Tupi</h5>
+                                        <p>Brachiaria humidicola cv. BRS Tupi</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/integra.webp" alt="BRS Integra">
+                                        <h5 class="fw-bold mt-2">BRS Integra</h5>
+                                        <p>Brachiaria ruziziensis cv. BRS Integra</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brachiaria-baixa">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/basilisk.webp" alt="Basilisk, Braquiarinha ou Decumbens">
+                                        <h5 class="fw-bold mt-2">Basilisk, Braquiarinha ou Decumbens</h5>
+                                        <p>Brachiaria decumbens cv. Basilisk</p>
+                                        <a href="./brachiarias/basilisk.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/llanero.webp" alt="LIanero, Lhanero ou Dictyoneura">
+                                        <h5 class="fw-bold mt-2">LIanero, Lhanero ou Dictyoneura</h5>
+                                        <p>Brachiaria humidicola cv. LIanero</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/humidicola.webp" alt="Humidicola comum, Tuly ou Quicuio da Amazônia">
+                                        <h5 class="fw-bold mt-2">Humidicola comum, Tuly ou Quicuio</h5>
+                                        <p>Brachiaria humidicola</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/brachiaria/ruziziense.jpg" alt="Ruziziensis">
+                                        <h5 class="fw-bold mt-2">Ruziziensis</h5>
+                                        <p>Brachiaria ruziziensis</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="paicum-alto">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/mombaca.webp" alt="Mombaça">
+                                        <h5 class="fw-bold mt-2">Mombaça</h5>
+                                        <p>Panicum maximum cv. Mombaça</p>
+                                        <a href="./panicuns/mombaca.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/zuri.webp" alt="BRS Zuri">
+                                        <h5 class="fw-bold mt-2">BRS Zuri</h5>
+                                        <p>Panicum maximum cv. BRS Zuri</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="panicum-medio">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/tanzania.webp" alt="Tanzânia">
+                                        <h5 class="fw-bold mt-2">Tanzânia</h5>
+                                        <p>Panicum maximum cv. Tanzânia</p>
+                                        <a href="./panicuns/tanzania.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/quenia.webp" alt="BRS Quênia">
+                                        <h5 class="fw-bold mt-2">BRS Quênia</h5>
+                                        <p>Panicum maximum cv. BRS Quênia</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="panicum-baixo">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/massai.webp" alt="Massai">
+                                        <h5 class="fw-bold mt-2">Massai</h5>
+                                        <p>Panicum maximum cv. Massai</p>
+                                        <a href="./panicuns/massai.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/panicum/tamani.webp" alt="BRS Tamani">
+                                        <h5 class="fw-bold mt-2">BRS Tamani</h5>
+                                        <p>Panicum maximum cv. BRS Tamani</p>
+                                        <a href="#" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="elefante">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/pennisetum/capiacu.webp" alt="BRS Capiaçu">
+                                        <h5 class="fw-bold mt-2">BRS Capiaçu</h5>
+                                        <p>Pennisetum purpureum (Sin. Cenchrus purpureus) cv. BRS Capiaçu</p>
+                                        <a href="./pennisetuns/capiacu.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 rounded-3 bg-medio mt-1">
+                                        <img class="d-block w-100 mt-3" src="./imagens/pennisetum/kurumi.webp" alt="BRS Kurumi">
+                                        <h5 class="fw-bold mt-2">BRS Kurumi</h5>
+                                        <p>Pennisetum purpureum (Sin. Cenchrus purpureus) cv. BRS Kurumi</p>
+                                        <a href="./pennisetuns/kurumi.html" class="btn btn-success mb-3">Saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="pt-5 pb-5" id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form id="meuFormulario">
+                            <div class="mb-2">
+                                <label class="form-label fw-bolder text-colored" for="nome">Seu nome:</label>
+                                <input class="form-control nomeCompleto" type="text" id="nome" name="nome">
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label fw-bolder text-colored" for="email-t">Seu e-mail:</label>
+                                <input class="form-control" type="email" id="email-t">
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label fw-bolder text-colored" for="telefone">Seu telefone:</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label fw-bolder text-colored" for="mensagem">Seu mensagem:</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button class="btn fw-bolder btn-success" id="botao-enviar" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-center text-colored mt-5">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="d-flex list-inline justify-content-evenly mt-3">
+                                <li class="fs-5" ><a href="https://www.instagram.com/embrapa/"><i class="bi bi-instagram text-colored"></i></a></li>
+                                <li class="fs-5" ><a href="https://www.facebook.com/embrapa/?locale=pt_BR"><i class="bi bi-facebook text-colored"></i></a></li>
+                                <li class="fs-5" ><a href="https://www.embrapa.br/youtube"><i class="bi bi-youtube text-colored"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-center text-colored mt-5">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p class="text-center d mt-3 text-colored">Parque Estação Biológica - PqEB, s/nº, Brasília, DF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center">
+        Página criada sem fins lucrativos, conteúdo extraído dos sites da Embrapa.
+    </footer>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

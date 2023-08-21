@@ -1,0 +1,106 @@
+.bg-principal {
+    background-color: #53bd65;
+} 
+
+.nav-tabs .nav-link.active,
+.tab-pane,
+.bg-claro {
+    background-color: #f4fff6;
+}
+
+.bg-medio{
+    background-color: #9affab28;
+}
+.title-green, h5,
+.nav-tabs .nav-link.active,
+h2 {
+    color: #09791c;
+}
+
+#menu-navegacao .nav-link.active {
+    background-color: #09791c;
+    color: white;
+}
+
+.nav-tabs .nav-link,
+.nav .nav-link.active {
+    color: #53bd65;
+}
+
+.text-colored {
+    color: #217e31;
+}
+
+.nav {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+aside .nav .nav-link {
+    color: #000;
+}
+
+#carousel .carousel-caption {
+    background-color: rgba(208, 247, 214, 0.5);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: #000;
+}
+
+.tab-content p {
+    height: 48px;
+}
+
+#elefante h5 {
+    height: 20px;
+}
+
+#elefante p {
+    height: auto;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#embrapa-logo {
+    width: 100px;
+    margin-right: 15px;
+}
+
+header > div {
+    justify-content: end;
+}
+
+@media (max-width: 767px) {
+    .nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-tabs .nav-link {
+        border: var(--bs-nav-tabs-border-width) solid transparent;
+    }
+    .nav-tabs {
+        --bs-nav-tabs-link-active-border-color: var(--bs-border-color);
+    }
+
+    .nav-item button {
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    #menu-navegacao {
+        background-color: #f4fff6;
+    }
+
+    .nav-link {
+        color: #53bd65;
+    }
+
+}
