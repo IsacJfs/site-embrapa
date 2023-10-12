@@ -104,6 +104,45 @@ header > div {
         display: none;
     }
 
+    .height-carousel {
+        height: 45vh;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-tabs .nav-link {
+        border: var(--bs-nav-tabs-border-width) solid transparent;
+    }
+    .nav-tabs {
+        --bs-nav-tabs-link-active-border-color: var(--bs-border-color);
+    }
+
+    .nav-item button {
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    #menu-navegacao {
+        background-color: #f4fff6;
+    }
+
+    .nav-link {
+        color: #53bd65;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .height-carousel {
+        height: 40vh;
+    }
+
 }
 
 #subtexto h1 {
