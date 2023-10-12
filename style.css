@@ -1,6 +1,6 @@
 .bg-principal {
     background-color: #53bd65;
-} 
+}
 
 .nav-tabs .nav-link.active,
 .tab-pane,
@@ -8,10 +8,12 @@
     background-color: #f4fff6;
 }
 
-.bg-medio{
+.bg-medio {
     background-color: #9affab28;
 }
-.title-green, h5,
+
+.title-green,
+h5,
 .nav-tabs .nav-link.active,
 h2 {
     color: #09791c;
@@ -70,54 +72,21 @@ h2 {
     margin-right: 15px;
 }
 
-header > div {
+header>div {
     justify-content: end;
 }
 
 
-@media (max-width: 767px) {
+@media (orientation: portrait) and (max-width: 767px) {
     .nav {
         padding-left: 0;
         padding-right: 0;
     }
+
     .nav-tabs .nav-link {
         border: var(--bs-nav-tabs-border-width) solid transparent;
     }
-    .nav-tabs {
-        --bs-nav-tabs-link-active-border-color: var(--bs-border-color);
-    }
 
-    .nav-item button {
-        padding: 16px;
-        font-size: 18px;
-    }
-
-    #menu-navegacao {
-        background-color: #f4fff6;
-    }
-
-    .nav-link {
-        color: #53bd65;
-    }
-
-    .carousel-indicators {
-        display: none;
-    }
-
-    .height-carousel {
-        height: 45vh;
-    }
-
-}
-
-@media (max-width: 650px) {
-    .nav {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .nav-tabs .nav-link {
-        border: var(--bs-nav-tabs-border-width) solid transparent;
-    }
     .nav-tabs {
         --bs-nav-tabs-link-active-border-color: var(--bs-border-color);
     }
@@ -142,8 +111,46 @@ header > div {
     .height-carousel {
         height: 40vh;
     }
-
 }
+
+@media (orientation: portrait) and (max-width: 650px) {
+    .nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav-tabs .nav-link {
+        border: var(--bs-nav-tabs-border-width) solid transparent;
+    }
+
+    .nav-tabs {
+        --bs-nav-tabs-link-active-border-color: var(--bs-border-color);
+    }
+
+    .nav-item button {
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    #menu-navegacao {
+        background-color: #f4fff6;
+    }
+
+    .nav-link {
+        color: #53bd65;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .height-carousel {
+        height: 48vh;
+    }
+    
+}
+
+
 
 #subtexto h1 {
     font-size: 24px;
